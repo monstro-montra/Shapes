@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b46ce53-1a74-4b50-840a-906c3b64de48" name="Changes" comment="Added a UML Diagram that visualizes how this program works.">
+    <list default="true" id="4b46ce53-1a74-4b50-840a-906c3b64de48" name="Changes" comment="Completed the Sphere class. Tested it in Main.java for functionality.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShapesUML.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/ShapesUML.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cylinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sphere.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +46,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665205244830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed the Sphere class. Tested it in Main.java for functionality.">
+      <created>1665208663814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665208663814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +105,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="This project demonstrates some pillars of OOP; primarily abstraction and encapsulation." />
     <MESSAGE value="Added a UML Diagram that visualizes how this program works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a UML Diagram that visualizes how this program works." />
+    <MESSAGE value="Completed the Sphere class. Tested it in Main.java for functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the Sphere class. Tested it in Main.java for functionality." />
   </component>
 </project>
