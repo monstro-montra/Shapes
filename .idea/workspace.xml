@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b46ce53-1a74-4b50-840a-906c3b64de48" name="Changes" comment="Completed the Sphere class. Tested it in Main.java for functionality.">
+    <list default="true" id="4b46ce53-1a74-4b50-840a-906c3b64de48" name="Changes" comment="finished cone and cylinder class. TODO get the loop to work with toString method.">
+      <change afterPath="$PROJECT_DIR$/src/ShapeArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShapesUML.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/ShapesUML.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShapesUML.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/ShapesUML.drawio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sphere.java" afterDir="false" />
     </list>
@@ -28,9 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,14 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665208663814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished cone and cylinder class. TODO get the loop to work with toString method.">
+      <created>1665219086320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219086320</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finished cone and cylinder class. TODO get the loop to work with toString method.">
+      <created>1665219099851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665219099851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +121,7 @@
     <MESSAGE value="This project demonstrates some pillars of OOP; primarily abstraction and encapsulation." />
     <MESSAGE value="Added a UML Diagram that visualizes how this program works." />
     <MESSAGE value="Completed the Sphere class. Tested it in Main.java for functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the Sphere class. Tested it in Main.java for functionality." />
+    <MESSAGE value="finished cone and cylinder class. TODO get the loop to work with toString method." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished cone and cylinder class. TODO get the loop to work with toString method." />
   </component>
 </project>

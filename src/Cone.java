@@ -1,8 +1,9 @@
 import java.lang.Math;
 
-public class Cone extends Shape{
+public class Cone extends Shape{ //subclass of Shape. this is inheritance.
     //cone attributes
     //instantiated objects don't really have names unless you allow them to have a name as an attribute. adding a name for clarity.
+    //all field variables will be private while public setters and getters are created to achieve encapsulation
     private final String name;
     private double height;
     private double radius;
@@ -22,12 +23,11 @@ public class Cone extends Shape{
     }
 
     @Override
-    public String toString(){
+    public void ShapeToString(){ //overridden method from Shape class. this is one of the ways to achieve polymorphism.
         System.out.println("The height of " + getConeName() +  " is " + height);
         System.out.println("The radius of " + getConeName() +  " is " + radius);
         System.out.println("The surface area of " + getConeName() + " is " + surface_area());
         System.out.println("The volume of " + getConeName() + " is " + volume());
-        return null;
     }
 
     //getters and setters

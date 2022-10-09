@@ -1,8 +1,9 @@
 import java.lang.Math;
 
-public class Cylinder extends Shape{
+public class Cylinder extends Shape{ //subclass of Shape. this is inheritance.
     //cylinder attributes
     //instantiated objects don't really have names unless you allow them to have a name as an attribute. adding a name for clarity.
+    //all field variables will be private while public setters and getters are created to achieve encapsulation
     private final String name;
     private final double height;
     private final double radius;
@@ -22,12 +23,11 @@ public class Cylinder extends Shape{
     }
 
     @Override
-    public String toString(){
+    public void ShapeToString(){ //overridden method from Shape class. this is one of the ways to achieve polymorphism.
         System.out.println("The height of " + getCylinderName() +  " is " + height);
         System.out.println("The radius of " + getCylinderName() +  " is " + radius);
         System.out.println("The surface area of " + getCylinderName() + " is " + surface_area());
         System.out.println("The volume of " + getCylinderName() + " is " + volume());
-        return null;
     }
 
     //getters and setters
