@@ -1,5 +1,5 @@
 public class ShapeArray {
-    Shape[] shapes;
+    private Shape[] shapes;
 
     public static void main(String[] args) {
         ShapeArray shapeArray = new ShapeArray(); // ShapeArray object made to be able to call printArray() method.
