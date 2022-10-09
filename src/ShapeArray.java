@@ -2,7 +2,7 @@ public class ShapeArray {
     private Shape[] shapes;
 
     public static void main(String[] args) {
-        ShapeArray shapeArray = new ShapeArray(); // ShapeArray object made to be able to call printArray() method.
+        ShapeArray shapeArray = new ShapeArray(); // ShapeArray object made to be able to call fillArray() and printArray() methods
         shapeArray.fillArray();
         shapeArray.printArray();
 
